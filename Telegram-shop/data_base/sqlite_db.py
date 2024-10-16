@@ -6,11 +6,11 @@ from create_bot import bot
 def sql_start():
     global base, cur
     base = sq.connect(
-        host='localhost',
-        port=3306,
-        user='root',
-        password='Alonikx1337-',
-        database='stariy_bot'
+        host='',
+        port=,
+        user='',
+        password='',
+        database=''
     )
     if base:
         print('Соединение успешно')
